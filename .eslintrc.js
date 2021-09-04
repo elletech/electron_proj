@@ -5,6 +5,7 @@ module.exports = {
   },
   extends: [
     'eslint:recommended', // defaultのルールを使用
+    'prettier:recommended', //
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
@@ -16,14 +17,19 @@ module.exports = {
   },
   plugins: ['react', '@typescript-eslint'],
   rules: {
-    // セミコロンをつける
-    semi: ['error', 'always'],
-    'semi-spacing': ['error', { after: true, before: false }],
-    'semi-style': ['error', 'last'],
-    'no-extra-semi': 'error',
-    'no-unexpected-multiline': 'error',
-    'no-unreachable': 'error',
-    'react/react-in-jsx-scope': 'off',
+    'prettier/prettier': [
+      'error',
+      {
+        // セミコロンをつける
+        semi: ['error', 'always'],
+        'semi-spacing': ['error', { after: true, before: false }],
+        'semi-style': ['error', 'last'],
+        'no-extra-semi': 'error',
+        'no-unexpected-multiline': 'error',
+        'no-unreachable': 'error',
+        'react/react-in-jsx-scope': 'off',
+      },
+    ],
   },
   settings: {
     react: {
@@ -33,4 +39,4 @@ module.exports = {
   globals: {
     JSX: true,
   },
-};
+}
