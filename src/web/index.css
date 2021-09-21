@@ -1,0 +1,35 @@
+table,
+tr,
+td,
+th {
+  border: 1px solid white;
+  color: white;
+}
+
+table {
+  border-collapse: collapse; /* セルの境界線を空けないで表示する */
+  width: 100%;
+  -webkit-user-select: none; /* テキストの選択を無効化 */
+}
+
+td {
+  padding: 32px 16px;
+  font-size: 32px;
+  text-align: center;
+  color: white;
+  font-weight: 800;
+}
+
+.calendar-table-contents {
+  padding: 16px;
+  background-color: rgba(255, 255, 255, 0.45);
+}
+
+.calendar-year {
+  color: white;
+}
+
+.calendar-month {
+  color: white;
+  font-size: 64px;
+}

@@ -1,4 +1,40 @@
 /*!*************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./src/web/index.css ***!
   \*************************************************************************************************/
+table,
+tr,
+td,
+th {
+  border: 1px solid white;
+  color: white;
+}
 
+table {
+  border-collapse: collapse; /* セルの境界線を空けないで表示する */
+  width: 100%;
+  -webkit-user-select: none; /* テキストの選択を無効化 */
+}
+
+td {
+  padding: 32px 16px;
+  font-size: 32px;
+  text-align: center;
+  color: white;
+  font-weight: 800;
+}
+
+.calendar-table-contents {
+  padding: 16px;
+  background-color: rgba(255, 255, 255, 0.45);
+}
+
+.calendar-year {
+  color: white;
+}
+
+.calendar-month {
+  color: white;
+  font-size: 64px;
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYXBwLmNzcyIsIm1hcHBpbmdzIjoiOzs7QUFBQTs7OztFQUlFLHVCQUF1QjtFQUN2QixZQUFZO0FBQ2Q7O0FBRUE7RUFDRSx5QkFBeUIsRUFBRSxxQkFBcUI7RUFDaEQsV0FBVztFQUNYLHlCQUF5QixFQUFFLGdCQUFnQjtBQUM3Qzs7QUFFQTtFQUNFLGtCQUFrQjtFQUNsQixlQUFlO0VBQ2Ysa0JBQWtCO0VBQ2xCLFlBQVk7RUFDWixnQkFBZ0I7QUFDbEI7O0FBRUE7RUFDRSxhQUFhO0VBQ2IsMkNBQTJDO0FBQzdDOztBQUVBO0VBQ0UsWUFBWTtBQUNkOztBQUVBO0VBQ0UsWUFBWTtFQUNaLGVBQWU7QUFDakIsQyIsInNvdXJjZXMiOlsid2VicGFjazovL2VsZWN0cm9uX3Byb2ovLi9zcmMvd2ViL2luZGV4LmNzcyJdLCJzb3VyY2VzQ29udGVudCI6WyJ0YWJsZSxcbnRyLFxudGQsXG50aCB7XG4gIGJvcmRlcjogMXB4IHNvbGlkIHdoaXRlO1xuICBjb2xvcjogd2hpdGU7XG59XG5cbnRhYmxlIHtcbiAgYm9yZGVyLWNvbGxhcHNlOiBjb2xsYXBzZTsgLyog44K744Or44Gu5aKD55WM57ea44KS56m644GR44Gq44GE44Gn6KGo56S644GZ44KLICovXG4gIHdpZHRoOiAxMDAlO1xuICAtd2Via2l0LXVzZXItc2VsZWN0OiBub25lOyAvKiDjg4bjgq3jgrnjg4jjga7pgbjmip7jgpLnhKHlirnljJYgKi9cbn1cblxudGQge1xuICBwYWRkaW5nOiAzMnB4IDE2cHg7XG4gIGZvbnQtc2l6ZTogMzJweDtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xuICBjb2xvcjogd2hpdGU7XG4gIGZvbnQtd2VpZ2h0OiA4MDA7XG59XG5cbi5jYWxlbmRhci10YWJsZS1jb250ZW50cyB7XG4gIHBhZGRpbmc6IDE2cHg7XG4gIGJhY2tncm91bmQtY29sb3I6IHJnYmEoMjU1LCAyNTUsIDI1NSwgMC40NSk7XG59XG5cbi5jYWxlbmRhci15ZWFyIHtcbiAgY29sb3I6IHdoaXRlO1xufVxuXG4uY2FsZW5kYXItbW9udGgge1xuICBjb2xvcjogd2hpdGU7XG4gIGZvbnQtc2l6ZTogNjRweDtcbn0iXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=*/
